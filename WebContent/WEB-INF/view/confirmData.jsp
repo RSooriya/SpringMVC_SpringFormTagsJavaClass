@@ -5,9 +5,22 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<style>
+table
+{
+width:10%;
+text-align:left;
+}
+</style>
 </head>
 <body>
 <h2>
 Congratulation ${student.name } Your information has been saved successfully</h2>
+<table>
+<tr>
+<th>Department</th>
+<td>${student.dept }</td>
+</tr>
+</table>
 </body>
 </html>
