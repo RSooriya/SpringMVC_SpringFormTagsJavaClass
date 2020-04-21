@@ -21,6 +21,10 @@ Congratulation ${student.name } Your information has been saved successfully</h2
 <th>Department</th>
 <td>${student.dept }</td>
 </tr>
+<tr>
+<th>Gender</th>
+<td>${student.gender }</td>
+</tr>
 </table>
 </body>
 </html>

@@ -30,6 +30,12 @@ border-spacing:10px;
 </td>
 </tr>
 <tr>
+<td>Gender</td>
+<td>
+<form:radiobuttons path="gender" items="${student.genderOptions }"/>
+</td>
+</tr>
+<tr>
 <td><input type="submit" value="Submit">
 </td>
 </tr>
