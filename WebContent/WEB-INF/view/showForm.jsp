@@ -15,6 +15,7 @@ border-spacing:10px;
 </style>
 </head>
 <body>
+<h2>Application Form</h2>
 <form:form action="processForm" modelAttribute="student">
 <table>
 <tr>
@@ -33,6 +34,12 @@ border-spacing:10px;
 <td>Gender</td>
 <td>
 <form:radiobuttons path="gender" items="${student.genderOptions }"/>
+</td>
+</tr>
+<tr>
+<td>Skills</td>
+<td>
+<form:checkboxes path="skills" items="${student.skillOptions }"/>
 </td>
 </tr>
 <tr>
